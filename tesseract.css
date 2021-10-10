@@ -1,0 +1,35 @@
+<div class="long-thing"></div>
+<div class="square"></div>
+<div class="inner-circle"></div>
+<style>
+  body{
+    background:#222730;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ 
+  }
+  .long-thing{
+    height:150px;
+    width:150px;
+    background:#4CAAB3;
+    transform: rotate(45deg);
+    position:absolute;
+      box-shadow: 0 0 0 50px #222730
+  }
+  .square{
+    height:150px;
+    width:990px;
+    background:#4CAAB3;
+    
+    
+  }
+  .inner-circle{
+    height:50px;
+    width:50px;
+     position:absolute;
+    background:#393E46;
+      border-radius:50%
+  }
+</style>
