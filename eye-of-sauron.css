@@ -1,0 +1,51 @@
+<div class="inner-dot"></div>
+<div class="inner-circle"></div>
+<div class="left-arm"></div>
+<div class="right-arm"></div>
+<style>
+  body{
+    background:#191210;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      
+  }
+  .inner-dot{
+    width:50;
+    height:50;
+    background:#84271C;
+    border-radius:50%;
+    position:absolute
+  }
+  .inner-circle{
+    width:100;
+    height:100;
+    background:#191210;
+    border-radius:50%;
+     box-shadow: 0 0 0 20px  #ECA03D;
+    
+  }
+  .left-arm{
+    width:60;
+    height:60;
+    position:absolute;
+   border-radius:50%;
+    border: 20px solid #ECA03D;
+    border-left-color:transparent;
+    border-top-color:transparent;
+    transform:rotate(45deg);
+    left:50;
+   
+  }
+   .right-arm{
+    width:60;
+    height:60;
+    position:absolute;
+   border-radius:50%;
+    border: 20px solid #ECA03D;
+    border-left-color:transparent;
+    border-top-color:transparent;
+    transform:rotate(225deg);
+    left:250;
+     
+</style>
