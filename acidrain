@@ -1,0 +1,47 @@
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+<style>
+  body{
+    background:#62306D;
+  
+  }
+  .first {
+    width: 100px;
+    height:100px;
+    background: #dd6b4d;
+    background:#F7EC7D;
+    border-radius: 50px  50px  0px  0px;
+    position:absolute;
+    top:50%;
+      left:50%;
+    transform:translate(-50%, -100%)
+  }
+  .second{
+    width: 100px;
+    height:100px;
+    background: #dd6b4d;
+    background:#F7EC7D;
+    border-radius: 0px 0px 50px  50px;
+     position:absolute;
+    top:50%;
+      left:50%;
+    transform:translate(50%, 0%)
+  }  
+  
+  
+    .third{
+    width: 100px;
+    height:100px;
+    background: #dd6b4d;
+    background:#F7EC7D;
+    border-radius: 0px 0px 50px  50px;
+     position:absolute;
+    top:50%;
+      left:50%;
+    transform:translate(-150%, 0%)
+  }  
+
+
+  }
+</style>
